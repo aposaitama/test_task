@@ -18,7 +18,7 @@ class FeedRepository {
 
   final Dio _dio;
 
-  static const _postsUrl = 'https://jsonplaceholder.typicode.com/pos';
+  static const _postsUrl = 'https://jsonplaceholder.typicode.com/posts';
 
   Future<List<FeedItem>> fetchPosts() async {
     try {
